@@ -16,6 +16,6 @@ spec:
     spec:
       containers:  
         - name: backend-app
-          image: backend  
+          image: vikasprince/backend:null
           ports:
             - containerPort: 8080
